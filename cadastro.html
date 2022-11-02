@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title class="titulo">Cadastro</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+    
+    <body>
+    
+    {% with messages = get_flashed_messages() %}  
+        {% if messages %}  
+              {% for message in messages %}  
+                   <p class="erro_dre_cadastrado">{{ message }}<a href="/login">Login</a></p>
+                   
+              {% endfor %}  
+        {% endif %}  
+     {% endwith %}
+    
+    <h1 font-family="Arial">Faça seu cadastro</h1>
+    
+    <form action="/cadastro" method="post">
+    
+    <p><input class="caixinha" type="text" name = "nome" placeholder="Nome" ></p>
+    <p><input class="caixinha" type="text" name = "dre" placeholder="DRE"></p>
+    <p><input class="caixinha" type="password" name = "senha" placeholder="senha"></p><br>
+    <p><input class="botao" type="submit"></p>
+    
+    </form>
+    </body>
+    
+    </html>
