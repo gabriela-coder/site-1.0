@@ -1,0 +1,80 @@
+h1{
+    margin: 40px;
+    font-family: "Verdana";
+    text-align: center;
+    font-variant: initial;
+    font-weight: bold;
+    
+}
+
+*{
+    background-color: rgb(1, 1, 1);
+    font-family: "Verdana", "Arial";
+    color: whitesmoke;
+}
+
+p{
+    font-family: "Montserrat";
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.botao{
+    align-items:center;
+    background-color: rgb(68, 2, 68);
+    font-size: 16px; 
+    line-height: 16px; padding: 10px 30px; 
+    border-radius: 10px;
+    font-family: "Verdana", "Arial";}
+    .botao:hover {
+        background-color: rgb(156, 2, 156); 
+        transition: 0.6s;
+    }
+
+.botaoigual{
+    align-items:center;
+    background-color: rgb(68, 2, 68);
+    font-size: 16px; 
+    line-height: 10px; padding: 15px; 
+    border-radius: 10px;
+    font-family: "Verdana", "Arial";}
+    .botaoigual:hover {
+        background-color: rgb(156, 2, 156); 
+        transition: 0.6s;
+    }
+
+.caixinha{
+  padding: 3.5px 15px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+/*
+ 
+.myButton {
+    color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: "Helvetica", "Arial"; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); border: 2px solid rgb(28, 110, 164); display: inline-block;}
+    .myButton:hover {
+    background: #1C6EA4; }
+    .myButton:active {
+    background: #144E75; }
+
+text-align: center
+background-color: skyblue
+font-size: 20px;
+font-weight: bold;
+
+ background-image: bota uma imagem no fundo
+
+ usar #id ou .algumacoisa pra selecionar os objetos especificos
+
+
+ *{
+    background-color: rgb(233,234,171);
+      text-align: center;
+}
+
+
+ /*
